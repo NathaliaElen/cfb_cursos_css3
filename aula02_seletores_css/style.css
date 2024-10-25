@@ -1,0 +1,21 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(201, 198, 198);
+}
+
+#titulo {
+    font-size: 30pt;
+}
+
+.p_exemplos {
+    color: #f00;
+    font-size: 16pt;
+}
+
+h1, h2, h3, h4 {
+    color: blueviolet;
+}
+
