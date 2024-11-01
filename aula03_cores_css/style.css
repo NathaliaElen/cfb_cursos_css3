@@ -1,0 +1,36 @@
+* {
+    background-color: rgb(238, 234, 234);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, p {
+    color: #000B58;
+}
+
+#nome {
+    color: blue;
+}
+
+#hexadecimal {
+    color: #006A67;
+}
+
+#hexadecimal_contraido {
+    color: #F00;
+}
+
+#rgb {
+    color: rgb(255, 87, 51);
+}
+
+#rgba {
+    color: rgba(255, 87, 51, 0.5);
+}
+
+#hsl {
+    color: hsl(327, 80%, 50%);
+}
+
+#hsla {
+    color: hsla(207, 92%, 47%, 0.5);
+}
