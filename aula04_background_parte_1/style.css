@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    background-image: url(imagem_de_fundo.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 500px 300px;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 30pt;
+    background-color: gray;
+}
