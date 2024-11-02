@@ -1,0 +1,4 @@
+body {
+    background: #ffcc00 url(imagem_de_fundo.png) no-repeat center/400px fixed;
+    /*Esse exemplo define uma cor de fundo, uma imagem, a repetição (sem repetição), a posição (centro), o tamanho (400px) e o anexo (fixo).*/
+}
