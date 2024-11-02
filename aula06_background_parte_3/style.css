@@ -1,0 +1,7 @@
+body {
+    background-image: url(imagem_de_fundo.png), url(logo.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 400px, 200px;
+    background-position: top center, center;
+    background-attachment: scroll, fixed; /*podemos usar para múltiplas imagens de fundos)*/
+}
