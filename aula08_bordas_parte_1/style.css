@@ -1,0 +1,57 @@
+#d1 {
+    width: 300px;
+    height: 300px;
+    background-color: #DDD;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #00F;
+}
+
+#d2 {
+    width: 300px;
+    height: 300px;
+    background-color: #DDD;
+    border: #F00 dotted 20px;
+}
+
+#d3 {
+    width: 300px;
+    height: 300px;
+    background-color: #DDD;
+    border: #0F0 dashed 20px;
+}
+
+#d4 {
+    width: 300px;
+    height: 300px;
+    background-color: #DDD;
+    border: #00F double 20px;
+}
+
+#d5 {
+    width: 300px;
+    height: 300px;
+    background-color: #DDD;
+    border: #F00 groove 20px;
+}
+
+#d6 {
+    width: 300px;
+    height: 300px;
+    background-color: #DDD;
+    border: #0F0 ridge 20px;
+}
+
+#d7 {
+    width: 300px;
+    height: 300px;
+    background-color: #DDD;
+    border: #00F inset 20px;
+}
+
+#d8 {
+    width: 300px;
+    height: 300px;
+    background-color: #DDD;
+    border: #F00 outset 20px;
+}
