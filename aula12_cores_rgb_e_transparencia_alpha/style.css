@@ -1,0 +1,16 @@
+p {
+  font-size: 20px;
+  color: rgb(0, 0, 255);
+}
+
+#d1 {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#d2 {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(125, 255, 75, 0.75);
+}
