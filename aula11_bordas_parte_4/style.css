@@ -1,0 +1,14 @@
+#p1 {
+  border: 30px solid;
+  border-image: url(borda.png) 30 round;
+  }
+
+  #p2 {
+    border-width: 30px;  /* Largura da borda */
+    border-style: solid;  /* Estilo da borda */
+    border-image-source: url('borda.png');  /* Fonte da imagem da borda */
+    border-image-width: 30px; /* Largura da imagem da borda */
+    border-image-slice: 30;  /* Como a imagem deve ser dividida */
+    border-image-repeat: stretch; /*Como a imagem deve ser repetida ao longo das bordas do elemento*/
+  }
+  
