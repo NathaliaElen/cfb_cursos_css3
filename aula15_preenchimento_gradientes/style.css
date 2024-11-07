@@ -1,0 +1,69 @@
+div {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#d1 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  background-image: linear-gradient(to right,#f00,#ff0);
+}
+
+/*Se quiser que fique na diagonal, trabalhamos com ângulos:*/
+#d2 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  background-image: linear-gradient(45deg,#f00,#ff0,#00f,#000);
+}
+
+/*Adicionando posições as cores: se não informar a posições, ele distribui automaticamente entre as cores informadas*/
+#d3 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  background-image: linear-gradient(180deg,#f00 0%,#ff0 25%,#00f 50%,#000);
+}
+
+#d4 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  background-image: radial-gradient(#f00,#ff0,#00f,#000);
+}
+
+#d5 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  background-image: radial-gradient(#f00 30%,#ff0 60%,#00f,#000);
+}
+
+#d6 {
+  width: 600px;
+  height: 300px;
+  border: 1px solid #000;
+  background-image: radial-gradient(circle,#f00 10%,#ff0 30%,#00f,#000);
+}
+
+#d7 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  background-image: repeating-linear-gradient(90deg,#f00 0%,#ff0 20%);
+}
+
+#d8 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  background-image: repeating-radial-gradient(circle,#f00 0%,#ff0 20%);
+}
+
+#texto-gradiente {
+  background: linear-gradient(90deg, #f00, #00f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
