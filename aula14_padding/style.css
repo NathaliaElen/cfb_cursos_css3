@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 { 
+  width: 200px;
+	 margin: auto; 
+}
+
+#d1, #d2 {
+  width: 500px;
+  height: 150px;
+  border: 1px solid #000;
+  margin: auto;
+  padding: 20px;
+}
+
+#d1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+p {
+  text-align: justify;
+}
+
+#d1 p{
+  padding-bottom: 10px;
+}
+
+#d2 p{
+  padding-bottom: 5px;
+}
