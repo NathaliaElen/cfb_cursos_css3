@@ -1,0 +1,51 @@
+body {
+    background-color: papayawhip;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    background: linear-gradient(45deg, darkred, darkblue, darkviolet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    word-spacing: 0.2em;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16pt;
+}
+
+#p1 {
+    color: darkred;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+
+#p2 {
+    color: darkblue;
+    font-style: italic;
+    font-weight: 500;
+    font-variant: normal;
+}
+
+#p3 {
+    color: darkgreen;
+    font-style: oblique;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+#p4 {
+    color: darkviolet;
+    font-style: normal;
+    font-weight: 300;
+    font-variant: normal;
+    font-variant-alternates: historical-forms;
+}
