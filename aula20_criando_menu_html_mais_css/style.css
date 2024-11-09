@@ -1,0 +1,30 @@
+body {
+    background-color: papayawhip;
+    font-family: "Montserrat", sans-serif;
+}
+
+#obMenu {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*configuração de links não visitados, já visitados e que estão sendo visitados*/
+a {
+    text-decoration: none;
+    background-color: #004;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+}
+
+/*configuração de links quando o mouse tiver sobre ele*/
+a:hover {
+    background-color: #44d;
+}
