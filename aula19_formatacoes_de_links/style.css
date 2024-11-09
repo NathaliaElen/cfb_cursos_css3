@@ -1,0 +1,34 @@
+body {
+    background-color: papayawhip;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background: linear-gradient(45deg, darkred, darkblue, darkviolet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    word-spacing: 0.2em;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: 700;
+}
+
+/*configuração de links não visitados, já visitados e que estão sendo visitados*/
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #006;
+    padding: 20px;
+}
+
+/*configuração de links quando o mouse tiver sobre ele*/
+a:hover {
+   background-color: #88a;
+   color: #000;
+   cursor: pointer;
+}
