@@ -1,0 +1,50 @@
+body {
+    background-color: papayawhip;
+}
+
+ul, ol {
+    font-size: 25px;
+}
+
+#ol1 {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#ol1 li {
+    width: 150px;
+    height: 40px;
+    background-color: #800;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+
+#ol1 li:hover {
+    background-color: #f00;
+    cursor: pointer;
+}
+
+#ol1 li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#ol2 {
+    list-style-type: upper-roman;
+    list-style-position: inside; 
+}
+
+#ul1 {
+    list-style-image: url(marcador.png);
+    list-style-position: inside;
+}
+
+#ul2 {
+    list-style: decimal-leading-zero outside;
+}
+
+#ol2, #ul1, #ul2 li {
+    border: 1px solid #000;
+}
