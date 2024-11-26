@@ -1,0 +1,51 @@
+body {
+    background-color: papayawhip;
+}
+
+table, td, th {
+    border: 1px solid #000;
+}
+
+table {
+    width: 500px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    /*empty-cells: hide;*/
+}
+
+td, th {
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #8a8;
+    color: #fff;
+    font-size: 25px;
+}
+
+/*Como aplicar formatação zebra com CSS*/
+#tabela2 {
+    width: 50%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: auto;
+    border: 1px solid black;
+  }
+  
+  .cabTab2, .linhaTab2 {
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .linhaTab2:nth-child(even) {
+    background-color: #f2f2f2; /* Cor para linhas pares */
+  }
+  
+  .linhaTab2:nth-child(odd) {
+    background-color: #ffffff; /* Cor para linhas ímpares */
+  }
